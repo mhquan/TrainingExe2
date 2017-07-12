@@ -78,23 +78,23 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="0xb-Qb-74R">
                                                         <rect key="frame" x="120" y="0.0" width="215" height="180"/>
                                                         <subviews>
-                                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nguyễn Văn A" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w6u-w9-zgj">
+                                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nguyễn Văn A" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="w6u-w9-zgj">
                                                                 <rect key="frame" x="0.0" y="0.0" width="215" height="30"/>
                                                                 <nil key="textColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <textInputTraits key="textInputTraits"/>
+                                                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                                             </textField>
-                                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="abc@gmail.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i1l-le-sWr">
+                                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="abc@gmail.com" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="i1l-le-sWr">
                                                                 <rect key="frame" x="0.0" y="40" width="215" height="30"/>
                                                                 <nil key="textColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <textInputTraits key="textInputTraits"/>
+                                                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                                             </textField>
-                                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0123456789" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gCW-od-A6T">
+                                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0123456789" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="gCW-od-A6T">
                                                                 <rect key="frame" x="0.0" y="80" width="215" height="30"/>
                                                                 <nil key="textColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <textInputTraits key="textInputTraits"/>
+                                                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                                             </textField>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="WSg-wb-IGR">
                                                                 <rect key="frame" x="0.0" y="120" width="215" height="20"/>
@@ -157,7 +157,7 @@
                                                                 <rect key="frame" x="0.0" y="150" width="215" height="30"/>
                                                                 <nil key="textColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <textInputTraits key="textInputTraits"/>
+                                                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                                             </textField>
                                                         </subviews>
                                                     </stackView>
@@ -173,7 +173,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="Register:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Fx-nu-x2c"/>
+                                            <action selector="registerDidPush:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3h1-hN-rIq"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -196,10 +196,10 @@
                     <connections>
                         <outlet property="btnOutletFemale" destination="EaK-Kj-7O6" id="rS5-aC-VcM"/>
                         <outlet property="btnOutletMale" destination="JWg-gY-Fb4" id="d0c-PS-tIP"/>
-                        <outlet property="txtbirthday" destination="3hd-cB-4Za" id="56R-3p-jdG"/>
-                        <outlet property="txtemail" destination="i1l-le-sWr" id="s2S-KK-tAP"/>
-                        <outlet property="txtname" destination="w6u-w9-zgj" id="Eyv-5q-mqP"/>
-                        <outlet property="txtphone" destination="gCW-od-A6T" id="Zfl-Q7-CZi"/>
+                        <outlet property="txtBirthday" destination="3hd-cB-4Za" id="6DX-Mv-6LS"/>
+                        <outlet property="txtEmail" destination="i1l-le-sWr" id="Vuh-S4-zVf"/>
+                        <outlet property="txtName" destination="w6u-w9-zgj" id="lfU-24-X1e"/>
+                        <outlet property="txtPhone" destination="gCW-od-A6T" id="Pgk-YT-gAx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
