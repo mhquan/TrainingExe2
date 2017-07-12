@@ -507,6 +507,7 @@
 				14DFFA211F1387D200129900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14DFFA221F1387D200129900 /* Build configuration list for PBXNativeTarget "TrainingExe2Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				14DFFA241F1387D200129900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14DFFA251F1387D200129900 /* Build configuration list for PBXNativeTarget "TrainingExe2UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				14DFFA271F1387D200129900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
